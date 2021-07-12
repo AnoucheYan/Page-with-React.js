@@ -1,0 +1,31 @@
+.heading {
+    margin: 50px 0;
+}
+
+.offersContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 15px;
+}
+
+@media (min-width:768px) {
+    .offersContainer {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width:1263px) {
+    .offersContainer {
+        grid-template-columns: auto auto auto;
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width:1366px) {
+    .offersContainer {
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+}
